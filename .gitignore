@@ -1,3 +1,4 @@
+*.swp
 typings
 app/**/*.js
 app/**/*.map
