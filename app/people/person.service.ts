@@ -9,7 +9,9 @@ export class PersonService {
     return peoplePromise
       .then(people => people.filter(h => h.id === +id)[0]);
   }
-  updatePerson(person: Person){}
+  removePerson(person: Person){
+      peoplePromise.then(people => people.splice(people.indexOf(person), 1));
+  }
   addPerson(person: Person){
       let newId = Math.max.apply(null, PEOPLE.map(person => person.id)) + 1;
       person.id = newId;

@@ -24,4 +24,8 @@ export class PeopleComponent {
   addPerson() {
     this._router.navigate( ['Person', { id: null }] );
   }
+  
+  removePerson(person: Person) {
+    this._service.removePerson(person);
+  }
  }

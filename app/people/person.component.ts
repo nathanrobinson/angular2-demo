@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {Person, PersonService}   from './person.service';
+import {Person, PersonService} from './person.service';
 import {RouteParams, Router} from 'angular2/router';
 
 @Component({

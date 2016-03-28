@@ -3,8 +3,10 @@
       <button (click)="addPerson()">Add</button>
     </p>
 <ul class="items">
-    <li *ngFor="#person of people"
-      (click)="onSelect(person)">
-      <span class="badge">{{person.id}}</span> {{person.name}}
+    <li *ngFor="#person of people">
+      <span (click)="onSelect(person)">
+        <span class="badge">{{person.id}}</span> {{person.name}} 
+      </span>
+      <button (click)="removePerson(person)">X</button>
     </li>
   </ul>
