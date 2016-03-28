@@ -1,0 +1,10 @@
+<h2>PEOPLE</h2>
+    <p>
+      <button (click)="addPerson()">Add</button>
+    </p>
+<ul class="items">
+    <li *ngFor="#person of people"
+      (click)="onSelect(person)">
+      <span class="badge">{{person.id}}</span> {{person.name}}
+    </li>
+  </ul>
