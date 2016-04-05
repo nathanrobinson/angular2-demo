@@ -7,6 +7,8 @@ To prepare for this demo:
 4. sudo npm install typings --global
 5. sudo npm install lite-server --global
 6. npm install angular2
+7. install Mono
+9. install ASP.NET 5
 
 Optional
 --------
