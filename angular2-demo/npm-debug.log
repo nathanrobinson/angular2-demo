@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'angular2/http' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData angular2/http
+8 silly fetchOtherPackageData angular2/http
+9 silly cache add args [ 'angular2/http', null ]
+10 verbose cache add spec angular2/http
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'angular2/http',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'angular2/http',
+11 silly cache add   spec: 'github:angular2/http',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:angular2/http.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/angular2/http.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/angular2/http.git',
+11 silly cache add      gitUrl: 'git://github.com/angular2/http.git',
+11 silly cache add      shortcut: 'github:angular2/http',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular2/http/master/package.json' } }
+12 verbose addRemoteGit caching angular2/http
+13 verbose addRemoteGit angular2/http is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/angular2/http.git
+15 silly tryClone cloning angular2/http via git://github.com/angular2/http.git
+16 verbose tryClone git-github-com-angular2-http-git-d0c858532ca94a77d41a3da59dd36bf4 not in flight; caching
+17 info git [ 'clone',
+17 info git   '--template=/Users/nrobinson/.npm/_git-remotes/_templates',
+17 info git   '--mirror',
+17 info git   'git://github.com/angular2/http.git',
+17 info git   '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-d0c858532ca94a77d41a3da59dd36bf4' ]
+18 verbose git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git://github.com/angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-d0c858532ca94a77d41a3da59dd36bf4: Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-d0c858532ca94a77d41a3da59dd36bf4'...
+18 verbose git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git://github.com/angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-d0c858532ca94a77d41a3da59dd36bf4: fatal: remote error:
+18 verbose git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git://github.com/angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-d0c858532ca94a77d41a3da59dd36bf4:   Repository not found.
+19 silly tryHTTPS attempting to clone git+https://github.com/angular2/http.git
+20 silly tryClone cloning angular2/http via git+https://github.com/angular2/http.git
+21 verbose tryClone git-https-github-com-angular2-http-git-3213794a8b0fa19b098056eccb201e96 not in flight; caching
+22 info git [ 'clone',
+22 info git   '--template=/Users/nrobinson/.npm/_git-remotes/_templates',
+22 info git   '--mirror',
+22 info git   'https://github.com/angular2/http.git',
+22 info git   '/Users/nrobinson/.npm/_git-remotes/git-https-github-com-angular2-http-git-3213794a8b0fa19b098056eccb201e96' ]
+23 verbose git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror https://github.com/angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-https-github-com-angular2-http-git-3213794a8b0fa19b098056eccb201e96: Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-https-github-com-angular2-http-git-3213794a8b0fa19b098056eccb201e96'...
+23 verbose git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror https://github.com/angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-https-github-com-angular2-http-git-3213794a8b0fa19b098056eccb201e96: remote: Invalid username or password.
+23 verbose git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror https://github.com/angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-https-github-com-angular2-http-git-3213794a8b0fa19b098056eccb201e96: fatal: Authentication failed for 'https://github.com/angular2/http.git/'
+24 silly trySSH attempting to clone git@github.com:angular2/http.git
+25 silly tryClone cloning angular2/http via git@github.com:angular2/http.git
+26 verbose tryClone git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61 not in flight; caching
+27 info git [ 'clone',
+27 info git   '--template=/Users/nrobinson/.npm/_git-remotes/_templates',
+27 info git   '--mirror',
+27 info git   'git@github.com:angular2/http.git',
+27 info git   '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61' ]
+28 error git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61: Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61'...
+28 error git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61: ERROR: Repository not found.
+28 error git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61: fatal: Could not read from remote repository.
+28 error git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61:
+28 error git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61: Please make sure you have the correct access rights
+28 error git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61: and the repository exists.
+29 silly fetchPackageMetaData Error: Command failed: git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61
+29 silly fetchPackageMetaData Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61'...
+29 silly fetchPackageMetaData ERROR: Repository not found.
+29 silly fetchPackageMetaData fatal: Could not read from remote repository.
+29 silly fetchPackageMetaData
+29 silly fetchPackageMetaData Please make sure you have the correct access rights
+29 silly fetchPackageMetaData and the repository exists.
+29 silly fetchPackageMetaData
+29 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+29 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+29 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+29 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+29 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:319:11)
+29 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+29 silly fetchPackageMetaData     at Socket.emit (events.js:169:7)
+29 silly fetchPackageMetaData     at Pipe._onclose (net.js:469:12)
+29 silly fetchPackageMetaData  error for angular2/http { [Error: Command failed: git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61
+29 silly fetchPackageMetaData Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61'...
+29 silly fetchPackageMetaData ERROR: Repository not found.
+29 silly fetchPackageMetaData fatal: Could not read from remote repository.
+29 silly fetchPackageMetaData
+29 silly fetchPackageMetaData Please make sure you have the correct access rights
+29 silly fetchPackageMetaData and the repository exists.
+29 silly fetchPackageMetaData ]
+29 silly fetchPackageMetaData   killed: false,
+29 silly fetchPackageMetaData   code: 128,
+29 silly fetchPackageMetaData   signal: null,
+29 silly fetchPackageMetaData   cmd: 'git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61' }
+30 silly rollbackFailedOptional Starting
+31 silly rollbackFailedOptional Finishing
+32 silly runTopLevelLifecycles Starting
+33 silly runTopLevelLifecycles Finishing
+34 silly install printInstalled
+35 verbose stack Error: Command failed: git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61
+35 verbose stack Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61'...
+35 verbose stack ERROR: Repository not found.
+35 verbose stack fatal: Could not read from remote repository.
+35 verbose stack
+35 verbose stack Please make sure you have the correct access rights
+35 verbose stack and the repository exists.
+35 verbose stack
+35 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at ChildProcess.emit (events.js:172:7)
+35 verbose stack     at maybeClose (internal/child_process.js:821:16)
+35 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
+35 verbose stack     at emitOne (events.js:77:13)
+35 verbose stack     at Socket.emit (events.js:169:7)
+35 verbose stack     at Pipe._onclose (net.js:469:12)
+36 verbose cwd /Users/nrobinson/Documents/Dev/angular2-demo
+37 error Darwin 15.2.0
+38 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "angular2/http"
+39 error node v5.4.0
+40 error npm  v3.3.12
+41 error code 128
+42 error Command failed: git clone --template=/Users/nrobinson/.npm/_git-remotes/_templates --mirror git@github.com:angular2/http.git /Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61
+42 error Cloning into bare repository '/Users/nrobinson/.npm/_git-remotes/git-github-com-angular2-http-git-538df57be48067dd1a69dea319902e61'...
+42 error ERROR: Repository not found.
+42 error fatal: Could not read from remote repository.
+42 error
+42 error Please make sure you have the correct access rights
+42 error and the repository exists.
+43 error If you need help, you may report this error at:
+43 error     <https://github.com/npm/npm/issues>
+44 verbose exit [ 1, true ]

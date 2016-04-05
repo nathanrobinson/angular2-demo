@@ -1,0 +1,15 @@
+<h2>PERSON</h2>
+<div *ngIf="person">
+    <h3>"{{person.Name}}"</h3>
+    <div>
+      <label>Id: </label>{{person.Id}}</div>
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="person.Name" placeholder="name"/>
+    </div>
+    <p>
+      <span *ngIf="add"><button (click)="addPerson()">Add</button></span>
+      <span *ngIf="!add"><button (click)="removePerson()">Delete</button></span>
+      <button (click)="gotoPeople()">Back</button>
+    </p>
+  </div>
